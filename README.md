@@ -17,7 +17,7 @@
 
 - agenda.bat：运行议程管理系统的脚本文件 
 
-- design.pdf：描述你的面向对象设计结果的 Word 文档 ，其中包括 UML 类图及其说明
+- design.pdf：描述面向对象设计结果的 Word 文档 ，其中包括 UML 类图及其说明
 - test.pdf：描述程序运行测试用例的截图与解释的 Word 文档 
 - readme.txt：关于实验完成人基本信息、提交结果描述、实验心得等的补充说明文档 
 -   Lab02-Agenda.pdf：本次实验要求
@@ -42,7 +42,7 @@ Document description:
 
 - agenda.bat: indicates the script file that runs the agenda management system
 
-- design.pdf: A Word document that describes the results of your object-oriented design, including UML class diagrams and their descriptions
+- design.pdf: A Word document that describes the results of object-oriented design, including UML class diagrams and their descriptions
 - test.pdf: Word document that describes the screenshots and explanations of the test cases run by the program
 - readme.txt: Supplementary document about the basic information, description of the submitted results, and experience of the experiment
 - Lab02-Agenda.pdf: Requirements for this experiment
