@@ -1,0 +1,13 @@
+register Anna 123
+register Brian 234
+register Chris 345
+add Anna 123 Brian 2022.1.1.6:30 2022.1.6.8:30 A1
+add Anna 123 Chris 2022.1.10.10:00 2022.1.10.11:50 B1
+add Brian 234 Anna 2022.1.14.14:20 2022.1.15.00:00 C2
+add Chris 345 Anna 2022.10.1.8:00 2022.10.1.15:30 B1
+query Anna 123 2022.1.1.00:00 2022.2.1.00:00
+query Anna 123 2022.5.1.08:00 2022.11.1.08:00
+clear Anna 123
+query Anna 123 2022.1.1.00:00 2022.10.31.00:00
+delete Anna 123 3
+query Brian 234 2022.1.1.00:00 2022.10.31.00:00

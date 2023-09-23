@@ -1,0 +1,29 @@
+#1 命令格式错误
+register Anna 123 C1
+register Anna 123
+register Brian 234
+register Emma 456
+add Anna 123 Brian 2022.1.6.8:30 A1
+query Anna 2022.1.1.00:00 2022.2.1.00:00
+clear Anna 
+delete Anna 123 
+#2 重复注册用户名Anna
+register Anna 123
+#3  用户密码错误
+add Anna 12345 Brian 2021.2.1.6:30 2021.3.1.8:30 A1
+query Anna 12345 2022.7.1.00:00 2022.8.1.00:00
+#4 会议时间相互重叠
+add Anna 123 Brian 2022.1.1.6:30 2022.1.1.8:30 A1
+add Anna 123 Emma 2022.1.1.7:00 2022.1.1.9:00 B1
+#5 非法删除他人会议
+register Chris 345
+query Anna 123 2022.1.1.00:00 2022.7.1.00:00
+delete Chris 345 2
+#6 会议时间错误，结束时间早于开始时间
+add Anna 123 Brian 2022.7.1.00:00 2022.1.1.00:00 A1
+#7 查询时间错误，结束时间早于开始时间
+query Anna 123 2022.7.1.00:00 2022.1.1.00:00
+#8 添加会议时，会议发起者不存在
+add Danny 123 Brian 2021.1.1.6:30 2021.1.1.8:30 A1
+#9 添加会议时，会议受邀者不存在
+add Anna 123 Danny 2021.1.1.6:30 2021.1.1.8:30 A1

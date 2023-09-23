@@ -1,0 +1,4 @@
+javac -sourcepath src -d bin src/*.java
+javac -sourcepath src -d bin src/agenda/*.java
+: :
+pause

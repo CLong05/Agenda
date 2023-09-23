@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"Agenda","l":"Add"},{"p":"Agenda","l":"Agenda"},{"p":"<Unnamed>","l":"AgendaService"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Agenda","l":"Clear"},{"p":"Agenda","l":"Command"},{"p":"Agenda","l":"Delete"},{"p":"Agenda","l":"Query"},{"p":"Agenda","l":"Register"},{"p":"Agenda","l":"User"}];updateSearchResults();
