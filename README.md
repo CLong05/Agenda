@@ -24,7 +24,7 @@
 
 ---
 
-This is the experimental project 2 Agenda for the Compiling principle course of Sun Yat-Sen University in the spring semester of 2022.
+This is the experimental project 2 Agenda for the Compiling principle course of Sun Yat-sen University in the spring semester of 2022.
 
 This is an agenda management system based on command line interaction, which needs to realize user registration, adding meetings, querying meetings, deleting meetings, clearing meetings and other functions.
 
