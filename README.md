@@ -1,6 +1,6 @@
 # 议程管理系统 Agenda
 
-本仓库内为2022年春季学期中山大学计算机学院编译原理课程的实验项目2 Agenda。
+本仓库内为2022年春季学期中山大学编译原理课程的实验项目2 Agenda。
 
 这是一个基于命令行交互方式的议程（agenda）管理系统，需要实现用户注册、添加会议、查询会议、删除会议、清除会议等功能。 
 
@@ -24,7 +24,7 @@
 
 ---
 
-In this warehouse is the experimental project 2 Agenda of the Compiling principle course of School of Computer Science & Engineering, Sun Yat-Sen University in the spring semester of 2022.
+This is the experimental project 2 Agenda for the Compiling principle course of Sun Yat-Sen University in the spring semester of 2022.
 
 This is an agenda management system based on command line interaction, which needs to realize user registration, adding meetings, querying meetings, deleting meetings, clearing meetings and other functions.
 
